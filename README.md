@@ -47,6 +47,9 @@ Depois é só clicar CTRL+click sobre o link indicado para que abra o browser co
 
 ![image](https://github.com/user-attachments/assets/137f3d80-b041-4d0f-8bac-f6c9951e34f7)
 
+![image](https://github.com/user-attachments/assets/30e05cc1-1cda-4475-bdd4-90c203cadb72)
+
+
 
 
 

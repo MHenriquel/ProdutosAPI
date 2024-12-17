@@ -18,3 +18,44 @@ API de produtos, utilizando .NET Core e Entity Framework Core que permita o gere
 
 
 E em cada section, o modelo de documentação do JSON (payload) esperado para a funcionalidade.
+
+
+
+<br>
+<br>
+
+
+
+**Instruções para rodar a API:**
+
+Após efetuar o clone no GITHUB especificado pelo autor, abrir o windows explorer na pasta clonada e clicar com o botão direito do mouse dentro da pasta e selecionar a opção 
+GIT BASH, conforme exemplo abaixo:
+ 
+![image](https://github.com/user-attachments/assets/13f70ae7-d085-40cd-9fde-e19d209396a0)
+
+Será aberto um prompt de comando conforme ilustração abaixo:
+
+![image](https://github.com/user-attachments/assets/3c97d975-3f5e-49e9-a3c3-cbd7464b06bb)
+
+Então, no prompt de comando digite:
+
+![image](https://github.com/user-attachments/assets/a3a954b2-4aa2-494f-99df-529d61df0375)
+
+Depois é só clicar CTRL+click sobre o link indicado para que abra o browser com o endereço da API complementado com a opção "/swagger"
+
+![image](https://github.com/user-attachments/assets/b145c1dd-d468-4ec8-a92c-06c48a2f350c)
+
+![image](https://github.com/user-attachments/assets/137f3d80-b041-4d0f-8bac-f6c9951e34f7)
+
+![image](https://github.com/user-attachments/assets/30e05cc1-1cda-4475-bdd4-90c203cadb72)
+
+
+
+
+
+
+
+
+
+
+

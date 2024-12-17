@@ -49,9 +49,9 @@ namespace ProdutosAPI.Controllers
 
         // PUT: api/produtos/5
         [HttpPut("{ProductID}")]
-        public async Task<IActionResult> PutProduto(int id, Produto produto)
+        public async Task<IActionResult> PutProduto(int productID, Produto produto)
         {
-            if (id != produto.ProductID)
+            if (productID != produto.ProductID)
             {
                 return BadRequest();
             }
@@ -64,7 +64,7 @@ namespace ProdutosAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProdutoExists(id))
+                if (!ProdutoExists(productID))
                 {
                     return NotFound();
                 }
@@ -78,10 +78,10 @@ namespace ProdutosAPI.Controllers
         }
 
         // DELETE: api/produtos/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduto(int id)
+        [HttpDelete("{ProductID}")]
+        public async Task<IActionResult> DeleteProduto(int productID)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var produto = await _context.Produtos.FindAsync(productID);
             if (produto == null)
             {
                 return NotFound();

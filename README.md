@@ -21,6 +21,9 @@ E em cada section, o modelo de documentação do JSON (payload) esperado para a 
 
 
 
+
+
+
 **Instruções para rodar a API:**
 
 Após efetuar o clone no GITHUB especificado pelo autor, abrir o windows explorer na pasta clonada e clicar com o botão direito do mouse dentro da pasta e selecionar a opção 
